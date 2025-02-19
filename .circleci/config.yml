@@ -10,7 +10,7 @@ general:
 jobs:
   build:
     docker:
-      - image: node:20.15.0
+      - image: node:20.18.3
     steps:
       - checkout
       - run: npm install
